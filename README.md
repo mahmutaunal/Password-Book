@@ -81,42 +81,42 @@ All data is encrypted with **AES-256 + Android Keystore**, ensuring your informa
 ### 🔐 Secure Login
 | Secure Login |
 |--------------|
-| ![](assets/store/en/1.jpeg) |
+| <img src="assets/store/en/1.jpeg" width="250"/> |
 
 ---
 
 ### 📂 All Passwords in One Place
 | All Passwords in One Place | Share, Copy, Edit, or Delete |
 |----------------------------|------------------------------|
-| ![](assets/store/en/2.jpeg) | ![](assets/store/en/3.jpeg) |
+| <img src="assets/store/en/2.jpeg" width="250"/> | <img src="assets/store/en/3.jpeg" width="250"/> |
 
 ---
 
 ### ➕ Add & Manage Passwords
 | Add New Password | Manage Password Details |
 |------------------|-------------------------|
-| ![](assets/store/en/4.jpeg) | ![](assets/store/en/5.jpeg) |
+| <img src="assets/store/en/4.jpeg" width="250"/> | <img src="assets/store/en/5.jpeg" width="250"/> |
 
 ---
 
 ### 🤖 Smart Pro Features
 | Scan with Camera (OCR & Autofill) | Share Encrypted Info Securely |
 |-----------------------------------|--------------------------------|
-| ![](assets/store/en/6.jpeg) | ![](assets/store/en/7.jpeg) |
+| <img src="assets/store/en/6.jpeg" width="250"/> | <img src="assets/store/en/7.jpeg" width="250"/>) |
 
 ---
 
 ### 🔑 Strong Generator & Flexible Settings
 | Password Generator | Customize, Backup, Stay Safe |
 |--------------------|------------------------------|
-| ![](assets/store/en/8.jpeg) | ![](assets/store/en/9.jpeg) |
+| <img src="assets/store/en/8.jpeg" width="250"/> | <img src="assets/store/en/9.jpeg" width="250"/> |
 
 ---
 
 ### 🌙 Dark Mode
 | Eye-Friendly Dark Mode |
 |------------------------|
-| ![](assets/store/en/10.jpeg) |
+| <img src="assets/store/en/10.jpeg" width="250"/> |
 
 ---
 
