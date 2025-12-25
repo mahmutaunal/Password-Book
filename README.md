@@ -52,6 +52,26 @@ All data is encrypted with **AES-256 + Android Keystore**, ensuring your informa
 
 ---
 
+## 📎 Secure Attachments (NEW)
+
+PasswordBook allows you to attach rich, encrypted files directly to your password entries — keeping everything related to an account in one secure place.
+
+🔐 Supported Attachments
+-	🖼️ Images (screenshots, photos, ID cards)
+-	🎥 Videos
+-	🎙️ Voice recordings & audio notes
+-	📄 Documents (PDF, DOCX, TXT, and more)
+
+🛡️ How It Works
+- All attachments are encrypted with AES-256
+- Stored locally on your device
+- Automatically protected by your master password & biometrics
+- Attachments are included in encrypted backups
+
+Attachments are never uploaded, analyzed, or shared without your explicit action.
+
+---
+
 ## 🎨 UI & Accessibility
 
 - Modern Material You design
