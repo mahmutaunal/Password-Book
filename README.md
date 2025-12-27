@@ -99,44 +99,44 @@ Attachments are never uploaded, analyzed, or shared without your explicit action
 ## 📸 Screenshots
 
 ### 🔐 Secure Login
-| Secure Login |
-|--------------|
-| <img src="assets/store/en/1.jpeg" width="250"/> |
+| Secure Login                                              |
+|-----------------------------------------------------------|
+| <img src="assets/screenshots/en/login.png" width="250"/> |
 
 ---
 
 ### 📂 All Passwords in One Place
-| All Passwords in One Place | Share, Copy, Edit, or Delete |
-|----------------------------|------------------------------|
-| <img src="assets/store/en/2.jpeg" width="250"/> | <img src="assets/store/en/3.jpeg" width="250"/> |
+| All Passwords in One Place                                 | Share, Copy, Edit, or Delete                               |
+|------------------------------------------------------------|------------------------------------------------------------|
+| <img src="assets/screenshots/en/home_1.png" width="250"/> | <img src="assets/screenshots/en/home_2.png" width="250"/> |
 
 ---
 
 ### ➕ Add & Manage Passwords
-| Add New Password | Manage Password Details |
-|------------------|-------------------------|
-| <img src="assets/store/en/4.jpeg" width="250"/> | <img src="assets/store/en/5.jpeg" width="250"/> |
+| Add New Password                                        | Manage Password Details                                    |
+|---------------------------------------------------------|------------------------------------------------------------|
+| <img src="assets/screenshots/en/add.png" width="250"/> | <img src="assets/screenshots/en/detail.png" width="250"/> |
 
 ---
 
 ### 🤖 Smart Pro Features
-| Scan with Camera (OCR & Autofill) | Share Encrypted Info Securely |
-|-----------------------------------|--------------------------------|
-| <img src="assets/store/en/6.jpeg" width="250"/> | <img src="assets/store/en/7.jpeg" width="250"/>) |
+| Scan with Camera (OCR & Autofill)                          | Share Encrypted Info Securely                              |
+|------------------------------------------------------------|------------------------------------------------------------|
+| <img src="assets/screenshots/en/camera.png" width="250"/> | <img src="assets/screenshots/en/share.png" width="250"/>) |
 
 ---
 
 ### 🔑 Strong Generator & Flexible Settings
-| Password Generator | Customize, Backup, Stay Safe |
-|--------------------|------------------------------|
-| <img src="assets/store/en/8.jpeg" width="250"/> | <img src="assets/store/en/9.jpeg" width="250"/> |
+| Password Generator                                          | Customize, Backup, Stay Safe                                |
+|-------------------------------------------------------------|-------------------------------------------------------------|
+| <img src="assets/screenshots/en/generate.png" width="250"/> | <img src="assets/screenshots/en/settings.png" width="250"/> |
 
 ---
 
 ### 🌙 Dark Mode
-| Eye-Friendly Dark Mode |
-|------------------------|
-| <img src="assets/store/en/10.jpeg" width="250"/> |
+| Eye-Friendly Dark Mode                                    |
+|-----------------------------------------------------------|
+| <img src="assets/screenshots/en/home_3.png" width="250"/> |
 
 ---
 
