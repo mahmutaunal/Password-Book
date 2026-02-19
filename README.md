@@ -48,11 +48,12 @@ All data is encrypted with **AES-256 + Android Keystore**, ensuring your informa
 - **Encrypted sharing**
     - QR secure sharing
     - Styled image share
+    - **pbCard (.pbook) secure sharing** – End-to-end encrypted password card format that opens directly in PasswordBook after authentication (with expiration support)
 - Optional **automatic secure backups**
 
 ---
 
-## 📎 Secure Attachments (NEW)
+## 📎 Secure Attachments
 
 PasswordBook allows you to attach rich, encrypted files directly to your password entries — keeping everything related to an account in one secure place.
 
