@@ -1,189 +1,145 @@
 <p align="center">
-  <img src="assets/logo.png" width="120" />
+  <img src="assets/logo.png" width="128" alt="Password Book shield logo" />
 </p>
 
-<h1 align="center">🔐 Password Book – Offline & Secure Password Manager</h1>
+<h1 align="center">Password Book</h1>
 
 <p align="center">
-  <b>Minimal · Offline · AES-256 Encrypted</b><br/>
-  Store your passwords securely with a modern Material You interface.
+  <strong>Your private, encrypted vault for passwords and important records.</strong>
 </p>
 
 <p align="center">
-<a href="https://play.google.com/store/apps/details?id=com.mahmutalperenunal.passwordsbook">
-    <img alt="Get it on Google Play"
-        height="80"
-        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
-</a>
+  Local-first security &nbsp;•&nbsp; Modern Android experience &nbsp;•&nbsp; No advertising
 </p>
 
----
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.mahmutalperenunal.passwordsbook">
+    <img alt="Get Password Book on Google Play" height="72" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
+  </a>
+</p>
 
-## ✨ Highlights
+<p align="center">
+  <img src="assets/screenshots/en/feature-graphic-1024x500.png" width="100%" alt="Password Book — your vault, your control" />
+</p>
 
-**PasswordBook** is a fully offline and ad-free password manager that focuses on **privacy-first storage**.  
-All data is encrypted with **AES-256 + Android Keystore**, ensuring your information never leaves your device.
+## One secure place for what matters
 
----
+Password Book is a privacy-focused Android vault by **AlpWare Studio**. It helps you organize passwords, payment cards, identity details, secure notes, Wi-Fi credentials, license keys and encrypted attachments without turning daily security into a complicated workflow. Account-free device sync keeps the user—not a Password Book server—in control of where encrypted vault data moves.
 
-## 🔐 Core Security
+Your vault is designed around local protection, understandable recovery choices and clear user control. Essential record management remains free, while Premium adds advanced capture, automation, organization and synchronization tools. The app contains no banner, interstitial or rewarded advertising—and no advertising SDK.
 
-- AES-256 encrypted local storage
-- Master password + biometric login
-- Secure clipboard (auto-clears in 300 seconds)
-- Export/Import **encrypted backups**
-- Root detection & enhanced protection
+## Designed for clarity. Built for control.
 
-> **No network permission required.**  
-> Zero tracking – zero data collection.
+| Stay organized | Understand your security | Keep your data portable |
+| --- | --- | --- |
+| Categories, recognizable subcategory icons, tags, favorites, filters and grouped views keep every record easy to find. | Security Center checks password strength, reuse and missing information locally on the device. | Encrypted backups, verified-device sync and optional user-controlled WebDAV keep portability understandable. |
 
----
+### Everyday essentials
 
-## 🚀 Productivity Features
+- Flexible templates for logins, cards, identities, secure notes, Wi-Fi and license keys
+- Fast search, saved filters, favorites, tags and category-based grouping
+- Masked sensitive fields with deliberate reveal and copy actions
+- Encrypted attachments with compact previews and integrity validation
+- Dashboard summaries for vault health, backups, trusted devices and multiple vaults
+- Dedicated Sync Center for direct sync, conflicts, history and optional personal cloud
+- Trash, restore and permanent deletion controls
+- Light, dark and system themes with responsive phone and tablet layouts
+- English and Turkish localization
+- Optional access recovery through biometrics, a recovery kit or an authorized trusted device
 
-- Password generator (customizable rules)
-- **AutoFill service** for other apps
-- **OCR**: Fill passwords by scanning printed text
-- **Voice input**: Save passwords by speaking
-- **Encrypted sharing**
-    - QR secure sharing
-    - Styled image share
-    - **pbCard (.pbook) secure sharing** – End-to-end encrypted password card format that opens directly in PasswordBook after authentication (with expiration support)
-- Optional **automatic secure backups**
+## Product showcase
 
----
+<table>
+  <tr>
+    <td width="33%"><img src="assets/screenshots/en/01-dashboard.png" alt="Password Book dashboard and Vault Pulse" /></td>
+    <td width="33%"><img src="assets/screenshots/en/02-vault.png" alt="Encrypted vault grouped by record type" /></td>
+    <td width="33%"><img src="assets/screenshots/en/03-private-fields.png" alt="Record detail with masked private fields" /></td>
+  </tr>
+  <tr>
+    <td width="33%"><img src="assets/screenshots/en/04-security-center.png" alt="On-device Security Center checks" /></td>
+    <td width="33%"><img src="assets/screenshots/en/05-encrypted-backup.png" alt="Encrypted Backup Center" /></td>
+    <td width="33%"><img src="assets/screenshots/en/06-trusted-devices.png" alt="QR-assisted verified device network" /></td>
+  </tr>
+  <tr>
+    <td width="33%"><img src="assets/screenshots/en/07-premium.png" alt="Password Book Premium features" /></td>
+    <td width="33%"></td>
+    <td width="33%"></td>
+  </tr>
+</table>
 
-## 📎 Secure Attachments
+## Privacy and security by design
 
-PasswordBook allows you to attach rich, encrypted files directly to your password entries — keeping everything related to an account in one secure place.
+Password Book is engineered to reduce unnecessary exposure of sensitive data:
 
-🔐 Supported Attachments
--	🖼️ Images (screenshots, photos, ID cards)
--	🎥 Videos
--	🎙️ Voice recordings & audio notes
--	📄 Documents (PDF, DOCX, TXT, and more)
+- AES-GCM authenticated encryption protects sensitive vault values
+- Master Keys are processed with PBKDF2-HMAC-SHA-256 and per-user cryptographic material
+- Android Keystore protects device-bound secrets and biometric unlock material
+- Configurable auto-lock and re-authentication protect returning sessions
+- Sensitive clipboard contents and temporary files are cleared automatically
+- Screen protection can block screenshots and recent-app previews
+- Private Android application data is excluded from platform backup
+- Cleartext network traffic is disabled
+- Production integrity checks use Firebase App Check with Play Integrity
 
-🛡️ How It Works
-- All attachments are encrypted with AES-256
-- Stored locally on your device
-- Automatically protected by your master password & biometrics
-- Attachments are included in encrypted backups
+Vault contents, attachments, Master Keys and backup passwords are not intentionally sent to Firebase. Network-enabled platform services are limited to capabilities such as Google Play Billing, updates, reviews, integrity checks and diagnostics disclosed in the [Privacy Policy](../docs/index.html).
 
-Attachments are never uploaded, analyzed, or shared without your explicit action.
+Optional Premium personal-cloud sync connects directly to an HTTPS WebDAV provider selected by the user. Password Book uploads only per-vault authenticated encrypted objects. WebDAV credentials are protected locally with Android Keystore and are never sent to AlpWare Studio.
 
----
+> No security product can guarantee protection on every compromised device. Keep Android and Google Play services updated, use a strong Master Key and protect exported backup files.
 
-## 🎨 UI & Accessibility
+## Encrypted backup and migration
 
-- Modern Material You design
-- Light / Dark / System themes
-- Categorized & searchable storage
-- Multi-language support:
-    - English 🇬🇧
-    - Turkish 🇹🇷
+- Save manual encrypted backups directly to a folder you choose
+- Use a dedicated backup password or a verified Master Key
+- Restore through a guided, verifiable import flow
+- Run supported backup and restore operations in the background with progress notifications
+- Enable Premium daily, weekly, monthly or after-change automatic backups
+- Upgrade from supported legacy Password Book versions through verified, resumable migration
 
----
+### A careful path from Password Book v1
 
-## 🛠 Tech Stack
+Supported v1 installations are upgraded locally through a resumable migration that verifies available records and attachments before retiring the legacy source. Existing password-based migration remains the primary path. Eligible users who explicitly enabled biometric access in v1 can use a strong Android biometric check to create a new Master Key through a short-lived, one-time local recovery authorization. Vault content and biometric templates are not sent to AlpWare Studio during this process.
 
-| Layer           | Technology                               |
-|-----------------|--------------------------------------------|
-| UI              | Jetpack Compose, Material 3                |
-| DB & Encryption | Room + AES-256 + Keystore                  |
-| Security        | BiometricPrompt, Root detection            |
-| Features        | OCR, AutoFill, Voice Input, Secure Sharing |
-| Reporting       | Firebase Analytics & Crashlytics           |
-| Language        | Kotlin, Compose-first architecture         |
+After a successful upgrade, Password Book introduces the refreshed experience, offers biometric unlock and startup-screen choices, and explains the optional Recovery Center so returning users can configure the protection that fits them.
 
----
+## Free and Premium
 
-## 📸 Screenshots
+| Free foundation | Premium tools |
+| --- | --- |
+| Essential encrypted vault and record management | Custom categories and dynamic encrypted fields |
+| Search, filters, favorites, tags and grouped views | Multiple isolated vaults |
+| Attachments, Trash and manual encrypted backup | Automatic and after-change backups |
+| Security basics and product education | Advanced Security Center actions and duplicate analysis |
+| One verified companion for manual sync, sharing and configured recovery | Camera/gallery OCR, QR/barcode, NFC and voice-assisted capture |
+| Light, dark and system themes | Advanced Android Autofill and selective exports |
+| No advertising | Unlimited verified devices and automatic local-network sync |
+| | Personal-cloud sync through user-controlled HTTPS WebDAV |
 
-### 🔐 Secure Login
-| Secure Login                                              |
-|-----------------------------------------------------------|
-| <img src="assets/screenshots/en/login.png" width="250"/> |
+Premium entitlement is delivered through Google Play Billing. Core access to existing vault records, attachments, backups and essential security remains available without advertising.
 
----
+## Built for modern Android
 
-### 📂 All Passwords in One Place
-| All Passwords in One Place                                 | Share, Copy, Edit, or Delete                               |
-|------------------------------------------------------------|------------------------------------------------------------|
-| <img src="assets/screenshots/en/home_1.png" width="250"/> | <img src="assets/screenshots/en/home_2.png" width="250"/> |
+Password Book uses a Compose-first Kotlin architecture with Material 3, ViewModel, Coroutines, Flow and Room. Platform integrations include Android Keystore, BiometricPrompt, Autofill, WorkManager, CameraX, ML Kit, Nearby Connections, DNS-SD local sync, HTTPS WebDAV and Google Play services.
 
----
+- Minimum supported version: Android 9
+- Responsive layouts: phones and tablets
+- Languages: English and Turkish
+- Distribution: Google Play
 
-### ➕ Add & Manage Passwords
-| Add New Password                                        | Manage Password Details                                    |
-|---------------------------------------------------------|------------------------------------------------------------|
-| <img src="assets/screenshots/en/add.png" width="250"/> | <img src="assets/screenshots/en/detail.png" width="250"/> |
+## Get Password Book
 
----
+Download the current release from [Google Play](https://play.google.com/store/apps/details?id=com.mahmutalperenunal.passwordsbook) and create a private vault that stays understandable as it grows.
 
-### 🤖 Smart Pro Features
-| Scan with Camera (OCR & Autofill)                          | Share Encrypted Info Securely                              |
-|------------------------------------------------------------|------------------------------------------------------------|
-| <img src="assets/screenshots/en/camera.png" width="250"/> | <img src="assets/screenshots/en/share.png" width="250"/>) |
+## AlpWare Studio
 
----
+Password Book is designed and developed by **AlpWare Studio**.
 
-### 🔑 Strong Generator & Flexible Settings
-| Password Generator                                          | Customize, Backup, Stay Safe                                |
-|-------------------------------------------------------------|-------------------------------------------------------------|
-| <img src="assets/screenshots/en/generate.png" width="250"/> | <img src="assets/screenshots/en/settings.png" width="250"/> |
+- [Official website](https://www.alpwarestudio.com)
+- [More AlpWare Studio apps](https://play.google.com/store/apps/dev?id=5245599652065968716)
+- [Privacy Policy](../docs/index.html)
+- [Support](mailto:mahmutalperenunal@gmail.com)
 
----
-
-### 🌙 Dark Mode
-| Eye-Friendly Dark Mode                                    |
-|-----------------------------------------------------------|
-| <img src="assets/screenshots/en/home_3.png" width="250"/> |
-
----
-
-## 🧩 Architecture Overview
-
-PasswordBook is built with a **Compose + MVVM** architecture.
-
-| Directory Name | Layer Responsibility | Key Components |
-| :--- | :--- | :--- |
-| `core/` | Core Infrastructure | Essential non-UI components like **Encryption**, **Keystore** management, and general **Security** modules. |
-| `data/` | Data Layer | Manages all persistence and data handling. Includes **Room DB**, **DAO**, **Backup** logic, and **Repository** implementations. |
-| `domain/` | Domain Layer | Contains the central business logic. Defines **Use Cases** and core **Models**. |
-| `ui/` | Presentation Layer | Houses all user-facing components, including **Compose Screens** and their corresponding **ViewModels**. |
-| `features/` | Feature Modules | Specific, complex feature implementations such as **OCR**, **AutoFill**, **Backup**, **Sharing**, and **Voice** capabilities. |
-
----
-
-## 🔒 Privacy Policy
-
-> PasswordBook stores all data **locally and encrypted** on your device.  
-> No data leaves your device — ever.
-
-✔ No accounts  
-✔ No ads  
-✔ No tracking  
-✔ No cloud storage (optional encrypted cloud backup only)
-
----
-
-## 🛣️ Roadmap
-
-- 🟦 Multi-device sync via end-to-end encryption
-- 🟦 Browser extension integration
-- 🟦 Custom categories & icons
-
----
-
-## 📩 Contact
-
-Developed by **Mahmut Alperen Ünal**
-
-- 🔗 GitHub: [github.com/mahmutaunal](https://github.com/mahmutaunal)  
-- 📧 Email: [mahmutalperenunal@gmail.com](mailto:mahmutalperenunal@gmail.com)
-
----
-
-### 📌 Note
-This repository showcases the product only.  
-The source code of PasswordBook is **private**.
+<p align="center">
+  <strong>Password Book</strong><br />
+  Your vault. Your control.
+</p>
