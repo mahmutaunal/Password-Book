@@ -1,32 +1,92 @@
-Mahmut Alperen Ünal – Proprietary Software License (PSL-2025)
-Copyright (c) 2025 Mahmut Alperen Ünal
-All rights reserved.
+PASSWORD BOOK PROPRIETARY SOFTWARE LICENSE
 
-This software, including but not limited to its source code, binaries, application package (APK), assets, icons, designs, documentation, and any related intellectual property, is the exclusive proprietary property of the author, Mahmut Alperen Ünal.
+Copyright (c) 2025-2026 AlpWare Studio. All rights reserved.
 
-PERMITTED USE
-Permission is granted to install and use this software solely for personal, non-commercial purposes. This license does NOT grant access to the source code, nor does it allow any modification, distribution, or commercial exploitation in any form.
+Password Book and this repository, including without limitation all source
+code, compiled software, build files, documentation, user interfaces,
+designs, graphics, icons, media, databases, schemas, cryptographic protocols,
+product concepts, and other associated materials (collectively, the
+"Software"), are proprietary and confidential works of AlpWare Studio.
 
-PROHIBITED ACTIONS
-Without prior written and signed permission from the author, the following are strictly prohibited:
-- Using this software or any part of it in commercial products, services, or research
-- Copying, modifying, reverse engineering, decompiling, extracting, translating, or creating derivative works
-- Sharing, renting, sublicensing, distributing, reselling, streaming, or publishing the software or its assets
-- Circumventing security, encryption, license controls, or protections
-- Using screenshots, UI designs, assets, trademarks, or concepts for reproduction, replication, or competing products
+NO OPEN-SOURCE LICENSE
 
-COMMERCIAL USE
-Any commercial use—including but not limited to monetized applications, advertisements, resale, bundled services, paid features, SaaS usage, academic/commercial research, data collection, analytics, or corporate deployment—requires an official written license agreement signed by the author.
+The Software is not open source. Access to this private repository, possession
+of a copy, or access to any build or artifact does not grant any license or
+other right to use the Software except as expressly authorized in writing by
+AlpWare Studio or through the end-user terms applicable to an officially
+distributed Password Book application.
+
+RESTRICTIONS
+
+Unless AlpWare Studio has given prior written permission, you may not, in
+whole or in part:
+
+- copy, reproduce, publish, distribute, disclose, sell, rent, lease,
+  sublicense, transfer, host, or otherwise make the Software available;
+- modify, adapt, translate, or create derivative works from the Software;
+- reverse engineer, decompile, disassemble, decrypt, extract, or attempt to
+  derive source code, protected resources, algorithms, keys, or protocols,
+  except only to the limited extent that such a restriction is prohibited by
+  applicable law;
+- use the Software or any of its assets, interfaces, designs, documentation,
+  or concepts to create, train, evaluate, or improve another product, model,
+  dataset, or competing service;
+- remove, alter, obscure, or misrepresent any copyright, trademark,
+  attribution, security control, or proprietary notice; or
+- use the Software for commercial, research, benchmarking, security-testing,
+  or redistribution purposes outside the scope expressly approved in writing.
+
+AUTHORIZED CONTRIBUTORS AND CONTRACTORS
+
+Any access granted to an employee, contractor, reviewer, or contributor is
+limited to the purpose and duration authorized by AlpWare Studio. Access must
+not be shared with another person. On request or when authorization ends, all
+copies and confidential materials must be returned or securely deleted,
+subject to applicable law and written retention obligations.
 
 OWNERSHIP
-This license does not transfer ownership of the software or any intellectual property rights. All rights remain strictly with the author.
+
+AlpWare Studio retains all title, ownership, and intellectual-property rights
+in and to the Software. No rights are granted by implication, estoppel, or
+otherwise. "AlpWare Studio", "Password Book", associated logos, and related
+branding may not be used without prior written permission.
+
+THIRD-PARTY MATERIALS
+
+The Software may include or depend on third-party components. Those components
+remain subject to their respective copyright notices and license terms. This
+license applies only to AlpWare Studio's proprietary materials and does not
+replace or restrict rights granted directly by a third-party license.
 
 NO WARRANTY
-This software is provided "AS IS", without warranty of any kind, either expressed or implied. The author shall not be liable for any damages, data loss, security breaches, profit loss, or consequential claims arising from the use of this software.
 
-LEGAL ENFORCEMENT
-Violation of this license will result in legal action under applicable copyright, intellectual property, and software protection laws. Jurisdiction may include Turkey (TR), Europe (EU), and relevant international courts.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE AND REPOSITORY
+MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY
+KIND, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
 
-AUTHOR & RIGHTS HOLDER:
-Mahmut Alperen Ünal
-For licensing inquiries, contact: mahmutalperenunal@gmail.com
+LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALPWARE STUDIO AND ITS
+OWNERS, PERSONNEL, AND AUTHORIZED CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES,
+OR FOR ANY LOSS OF DATA, PROFITS, REVENUE, BUSINESS, OR GOODWILL, ARISING FROM
+ACCESS TO OR USE OF THE SOFTWARE OR REPOSITORY MATERIALS.
+
+TERMINATION
+
+Any authorization granted for the Software terminates automatically upon a
+breach of these terms. Upon termination, all use must cease and all copies in
+the recipient's possession or control must be returned or securely deleted,
+unless retention is required by applicable law.
+
+CONTACT
+
+Licensing and permission requests:
+AlpWare Studio
+https://www.alpwarestudio.com
+contact@alpwarestudio.com
+
+THE SOFTWARE MAY NOT BE USED, COPIED, MODIFIED, OR DISTRIBUTED EXCEPT AS
+EXPRESSLY AUTHORIZED ABOVE OR IN A SEPARATE WRITTEN AGREEMENT WITH ALPWARE
+STUDIO.
